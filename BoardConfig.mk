@@ -184,7 +184,6 @@ SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/private
 
 # Treble
 PRODUCT_VENDOR_MOVE_ENABLED := true
-BOARD_VNDK_VERSION := current
 
 # Verified Boot
 BOARD_AVB_ENABLE := true

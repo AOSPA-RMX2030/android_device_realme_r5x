@@ -354,6 +354,7 @@ PRODUCT_PACKAGES += \
 
 # QTI
 TARGET_COMMON_QTI_COMPONENTS := \
+    av \
     perf
 
 PRODUCT_COPY_FILES += \
@@ -485,8 +486,6 @@ PRODUCT_COPY_FILES += \
 
 # WiFi Display
 PRODUCT_PACKAGES += \
-    libavservices_minijail \
-    libavservices_minijail.vendor \
     libnl \
     libqdMetaData \
     libqdMetaData.system \

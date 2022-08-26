@@ -3537,8 +3537,6 @@ system_ext/etc/wfdconfigsink.xml|eeaf6d97db961a2af25614390bf7c183b736e9db
 system_ext/lib/com.qualcomm.qti.wifidisplayhal@1.0.so|d1b42bfb512a6573155308ce0eab892d1ceb2ccc
 system_ext/lib/hw/vendor.qti.hardware.sigma_miracast@1.0-impl.so|d11f9e2e43d2d936fee343b1af61c1e714496194
 system_ext/lib/libmiracastsystem.so|eba17539bda7be5dc00e532eafdd992de57e75e9
-system_ext/lib/libmmosal.so|ed23994b5e148fe143a320a2b183b71a556e2fcd
-system_ext/lib/libmmparser_lite.so|078224d83480b7f69eb30e0d036e24fa3fb0e37a
 system_ext/lib/libmmrtpdecoder.so|db34a6876b6437bb419e9beedb421f6c1edbef23
 system_ext/lib/libmmrtpencoder.so|5f9d17ea249cf55bc30019f1db2ab317d5c92d32
 system_ext/lib/libwfdaac.so|f50992f2e6bd09e03e7d37296fc9e7187e3e4320
@@ -3564,8 +3562,6 @@ system_ext/lib/vendor.qti.hardware.sigma_miracast@1.0-halimpl.so|b15a5d5b19c1c4e
 system_ext/lib/vendor.qti.hardware.wifidisplaysession@1.0.so|48815a18144f60747555bb93650726206c54323f
 system_ext/lib64/hw/vendor.qti.hardware.sigma_miracast@1.0-impl.so|8de3060b2bf000e17f4ec48e66f2b14693611a4a
 system_ext/lib64/libmiracastsystem.so|0169d33327e6bea96a751f9065107de8b3741718
-system_ext/lib64/libmmosal.so|21b67d7d9b1d7c64e7942cd1107ca8f0e2b91b15
-system_ext/lib64/libmmparser_lite.so|df8e602ebc12d150b2748c43ff0977fff4d25fd3
 system_ext/lib64/libmmrtpdecoder.so|4af3071ff57297051bf55ed0f04013f0c53289e6
 system_ext/lib64/libmmrtpencoder.so|65cb0c94b6f97478f13264098641633acffc7416
 system_ext/lib64/libwfdclient.so|c3174559f01158fbb6d30502fe46425ca27d983f

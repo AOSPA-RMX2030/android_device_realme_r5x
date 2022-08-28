@@ -141,6 +141,9 @@ LOC_HIDL_VERSION := 3.0
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/configs/manifests/manifest.xml
 DEVICE_MATRIX_FILE := $(DEVICE_PATH)/configs/manifests/compatibility_matrix.xml
 
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
+    $(DEVICE_PATH)/configs/manifests/framework_compatibility_matrix.xml
+
 # Keystore
 TARGET_PROVIDES_KEYMASTER := true
 

@@ -139,10 +139,11 @@ LOC_HIDL_VERSION := 3.0
 
 # HIDL
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/configs/manifests/manifest.xml
-DEVICE_MATRIX_FILE := $(DEVICE_PATH)/configs/manifests/compatibility_matrix.xml
+DEVICE_MATRIX_FILE := device/qcom/common/compatibility_matrix.xml
 
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
-    $(DEVICE_PATH)/configs/manifests/framework_compatibility_matrix.xml
+    $(DEVICE_PATH)/configs/manifests/framework_compatibility_matrix.xml \
+    vendor/qcom/opensource/core-utils/vendor_framework_compatibility_matrix.xml
 
 # Keystore
 TARGET_PROVIDES_KEYMASTER := true

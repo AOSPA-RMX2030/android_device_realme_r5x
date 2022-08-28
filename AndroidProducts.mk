@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_r5x.mk
+    $(LOCAL_DIR)/p404_r5x.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_r5x-user \
-    aosp_r5x-userdebug \
-    aosp_r5x-eng
+    p404_r5x-user \
+    p404_r5x-userdebug \
+    p404_r5x-eng

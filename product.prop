@@ -8,7 +8,6 @@ ro.sys.fw.dex2oat_thread_count=8
 ro.config.low_ram=false
 ro.lmk.log_stats=true
 
-
 # Graphics
 debug.hwui.renderer=skiagl 
 renderthread.skia.reduceopstasksplitting=true

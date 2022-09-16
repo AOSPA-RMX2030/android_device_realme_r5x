@@ -20,7 +20,8 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/qcom/opensource/wfd-commonsys \
     hardware/qcom/display \
     hardware/qcom/media \
-    vendor/qcom/opensource/audio-hal/primary-hal
+    vendor/qcom/opensource/audio-hal/primary-hal \
+    packages/apps/Bluetooth
 
 # Vendor properties
 -include $(LOCAL_PATH)/vendor_props.mk

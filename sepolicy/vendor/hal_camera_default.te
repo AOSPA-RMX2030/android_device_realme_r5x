@@ -9,8 +9,8 @@ allow hal_camera_default oppoalgo_daemon:binder { call transfer };
 allow hal_camera_default oppoalgo_service:service_manager find;
 allow hal_camera_default proc_devinfo:dir { search };
 allow hal_camera_default proc_devinfo:file { read open };
-allow hal_camera_default sysfs_hal_camera_default:file { read open };
-allow hal_camera_default sysfs_camera:file { read open };
+allow hal_camera_default vendor_sysfs_hal_camera_default:file { read open };
+allow hal_camera_default vendor_sysfs_camera:file { read open };
 
 get_prop(hal_camera_default, vendor_camera_prop)
 get_prop(hal_camera_default, oppo_debug_prop)

@@ -14,4 +14,3 @@ allow init hidl_base_hwservice:hwservice_manager { add };
 allow init hwservicemanager:binder { transfer };
 allow init init:capability2 { block_suspend };
 allow init init:capability2 { wake_alarm };
-allow init sysfs_usb_supply:file { read open };

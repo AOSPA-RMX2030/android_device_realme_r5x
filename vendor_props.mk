@@ -4,6 +4,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     audio.deep_buffer.media=true \
     audio.offload.min.duration.secs=30 \
     persist.bluetooth.a2dp_offload.disabled=false \
+    persist.vendor.bt.a2dp.mac_whitelist=false \
     persist.vendor.audio.ras.enabled=false \
     persist.vendor.bt.aac_frm_ctl.enabled=true \
     ro.af.client_heap_size_kbyte=7168 \
@@ -87,20 +88,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.boot-dex2oat-threads=8 \
     dalvik.vm.dex2oat-threads=4 \
     dalvik.vm.image-dex2oat-threads=4
-
-# Bluetooth
-PRODUCT_PROPERTY_OVERRIDES += \
-    persist.bluetooth.a2dp_offload.cap=sbc-aac-aptx-aptxhd-ldac \
-    persist.bluetooth.a2dp_offload.disabled=false \
-    persist.vendor.qcom.bluetooth.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aac-ldac \
-    persist.vendor.qcom.bluetooth.aac_vbr_ctl.enabled=false \
-    persist.vendor.qcom.bluetooth.enable.splita2dp=true \
-    persist.vendor.qcom.bluetooth.scram.enabled=true \
-    persist.vendor.qcom.bluetooth.soc=cherokee \
-    persist.vendor.qcom.bluetooth.twsp_state.enabled=false \
-    ro.bluetooth.a2dp_offload.supported=true \
-    ro.vendor.bluetooth.wipower=false \
-    vendor.qcom.bluetooth.soc=cherokee
 
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -188,16 +175,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.vidc.enc.disable_bframes=1 \
     vendor.vidc.enc.disable.pq=true \
     ro.media.recorder-max-base-layer-fps=60
-
-# PASR
-PRODUCT_PROPERTY_OVERRIDES += \
-    vendor.power.pasr.enabled=true \
-    vendor.pasr.activemode.enabled=true
-
-# Perf
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.vendor.extension_library=libqti-perfd-client.so \
-    ro.vendor.perf.scroll_opt=true
 
 # Radio
 PRODUCT_PROPERTY_OVERRIDES += \

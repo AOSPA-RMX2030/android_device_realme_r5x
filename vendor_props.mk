@@ -4,6 +4,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     audio.deep_buffer.media=true \
     audio.offload.min.duration.secs=30 \
     persist.bluetooth.a2dp_offload.disabled=false \
+    persist.vendor.bt.a2dp.mac_whitelist=false \
     persist.vendor.audio.ras.enabled=false \
     persist.vendor.bt.aac_frm_ctl.enabled=true \
     ro.af.client_heap_size_kbyte=7168 \

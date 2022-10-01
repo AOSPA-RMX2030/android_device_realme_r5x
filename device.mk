@@ -349,7 +349,8 @@ PRODUCT_PACKAGES += \
 TARGET_COMMON_QTI_COMPONENTS := \
     av \
     bt \
-    perf
+    perf \
+    vibrator
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/telephony_product_privapp-permissions-qti.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/telephony_product_privapp-permissions-qti.xml
@@ -453,10 +454,6 @@ PRODUCT_COPY_FILES += \
 
 # Speed profile services and wifi-service to reduce RAM and storage.
 PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := speed-profile
-
-# Vibrator
-PRODUCT_PACKAGES += \
-    vendor.qti.hardware.vibrator.service
 
 # Wifi
 PRODUCT_PACKAGES += \

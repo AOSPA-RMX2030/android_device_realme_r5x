@@ -364,7 +364,8 @@ PRODUCT_PACKAGES += \
 TARGET_COMMON_QTI_COMPONENTS := \
     av \
     bt \
-    perf
+    perf \
+    vibrator
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/qti_whitelist.xml:system/etc/sysconfig/qti_whitelist.xml \
@@ -470,10 +471,6 @@ PRODUCT_COPY_FILES += \
 
 # Speed profile services and wifi-service to reduce RAM and storage.
 PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := speed-profile
-
-# Vibrator
-PRODUCT_PACKAGES += \
-    vendor.qti.hardware.vibrator.service
 
 # Wifi
 PRODUCT_PACKAGES += \

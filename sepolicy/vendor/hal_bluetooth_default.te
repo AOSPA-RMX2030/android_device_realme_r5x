@@ -1,2 +1,0 @@
-allow hal_bluetooth_default vfat:file { getattr open read };
-allow hal_bluetooth_default vfat:dir { search open read };

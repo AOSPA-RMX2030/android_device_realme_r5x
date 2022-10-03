@@ -1,2 +1,0 @@
-allow kernel kernel:socket { create };
-allow kernel kernel:capability { kill };

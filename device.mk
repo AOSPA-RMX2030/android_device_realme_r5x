@@ -333,8 +333,16 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt
 
-# Platform 
+# Platform
 TARGET_BOARD_PLATFORM := trinket
+
+# Kernel (Prebuilt)
+TARGET_PREBUILT_KERNEL := device/realme/r5x-kernel/Image.gz-dtb
+
+PRODUCT_COPY_FILES += \
+    $(TARGET_PREBUILT_KERNEL):kernel
+
+PRODUCT_VENDOR_KERNEL_HEADERS := device/realme/r5x-kernel/kernel-headers
 
 # QMI
 PRODUCT_PACKAGES += \

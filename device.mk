@@ -352,8 +352,14 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt
 
-# Platform 
+# Platform
 TARGET_BOARD_PLATFORM := trinket
+
+# Kernel (Prebuilt)
+TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)-kernel/Image.gz-dtb
+
+PRODUCT_COPY_FILES += \
+    $(TARGET_PREBUILT_KERNEL):kernel
 
 # QMI
 PRODUCT_PACKAGES += \

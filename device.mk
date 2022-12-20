@@ -357,6 +357,8 @@ TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)-kernel/Image.gz-dtb
 PRODUCT_COPY_FILES += \
     $(TARGET_PREBUILT_KERNEL):kernel
 
+PRODUCT_VENDOR_KERNEL_HEADERS := $(LOCAL_PATH)-kernel/kernel-headers
+
 # QMI
 PRODUCT_PACKAGES += \
     libjson

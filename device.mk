@@ -134,10 +134,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.crypto.volume.filenames_mode=aes-256-cts
 
-#Dirac
-PRODUCT_PACKAGES += \
-    RealmeDirac
-
 # Display
 PRODUCT_PACKAGES += \
     android.frameworks.displayservice@1.0_32 \
@@ -394,9 +390,6 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.gsm.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.telephony.gsm.xml \
     frameworks/native/data/etc/android.hardware.telephony.ims.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.telephony.ims.xml
 
-# RealmeDirac
-$(call inherit-product, $(LOCAL_PATH)/app/RealmeDirac/dirac.mk)
-
 # Seccomp policy
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/seccomp/mediacodec-seccomp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy \
@@ -554,3 +547,4 @@ $(call inherit-product, vendor/realme/r5x/r5x-vendor.mk)
 # Remove Unwanted Packages
 PRODUCT_PACKAGES += \
     RemovePackages
+

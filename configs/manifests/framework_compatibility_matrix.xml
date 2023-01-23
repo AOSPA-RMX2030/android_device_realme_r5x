@@ -15,7 +15,9 @@
     <name>com.qualcomm.qti.ant</name>
     <version>1.0</version>
     <interface>
-        <name>IAntHci</name>                                                            <instance>default</instance>                                                </interface>
+        <name>IAntHci</name>                                                            
+        <instance>default</instance>
+    </interface>
 </hal>
 <hal format="hidl" optional="true">
     <name>vendor.lineage.livedisplay</name>
@@ -251,6 +253,42 @@
     <version>5.0</version>
     <interface>
         <name>IDevicesFactory</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="aidl" optional="true">
+    <name>android.hardware.vibrator</name>
+    <interface>
+        <name>IVibrator</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="aidl" optional="true">
+    <name>android.hardware.wifi.hostapd</name>
+    <interface>
+        <name>IHostapd</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="aidl" optional="true">
+    <name>android.hardware.wifi.supplicant</name>
+    <interface>
+        <name>ISupplicant</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="hidl" optional="true">
+    <name>android.hardware.wifi</name>
+    <version>1.0-6</version>
+    <interface>
+        <name>IWifi</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="aidl" optional="true">
+    <name>vendor.aospa.power</name>
+    <interface>
+        <name>IPowerFeature</name>
         <instance>default</instance>
     </interface>
 </hal>

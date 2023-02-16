@@ -107,10 +107,6 @@ MAX_EGL_CACHE_SIZE := 2048*1024
 
 OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
 
-# FM
-BOARD_HAVE_QCOM_FM := true
-BOARD_HAS_QCA_FM_SOC := cherokee
-
 # GPS
 LOC_HIDL_VERSION := 4.0
 

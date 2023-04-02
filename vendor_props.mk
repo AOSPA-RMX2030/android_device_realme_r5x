@@ -92,7 +92,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.camera.expose.aux=1 \
-    vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,org.lineageos.snap \
+    vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera \
     vidc.enc.dcvs.extra-buff-count=2 \
     vendor.camera.not.cts.apk=1 \
     vendor.camera.not.ctsverify.apk=1
@@ -196,10 +196,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.radio.data_con_rprt=1 \
     persist.vendor.radio.rat_on=combine \
     persist.vendor.radio.sib16_support=1
-
-# Recovery
-PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
-    persist.sys.binary_xml=false
 
 # Sensor
 PRODUCT_PROPERTY_OVERRIDES += \

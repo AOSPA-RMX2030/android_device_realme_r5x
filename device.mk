@@ -196,7 +196,6 @@ PRODUCT_COPY_FILES += \
 # Init
 PRODUCT_PACKAGES += \
     fstab.qcom \
-    init.class_main.sh \
     init.oppo.face.rc \
     init.oppo.face.sh \
     init.oppo.fingerprints.rc \
@@ -204,14 +203,8 @@ PRODUCT_PACKAGES += \
     init.oppo.product.rc \
     init.oppo.reserve.rc \
     init.msm.usb.configfs.rc \
-    init.qcom.early_boot.sh \
-    init.qcom.post_boot.sh \
-    init.qcom.rc \
     init.qcom.sensors.sh \
-    init.qcom.sh \
-    init.recovery.qcom.rc \
-    init.target.rc \
-    ueventd.qcom.rc
+    init.target.rc
 
 # IRSC
 PRODUCT_COPY_FILES += \
@@ -289,6 +282,7 @@ TARGET_COMMON_QTI_COMPONENTS := \
     adreno \
     av \
     bt \
+    init \
     perf \
     usb \
     vibrator \

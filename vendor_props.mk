@@ -78,17 +78,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.audio.feature.vbat.enable=true \
     vendor.audio.feature.wsa.enable=false
 
-# ART
-PRODUCT_PROPERTY_OVERRIDES += \
-    pm.dexopt.ab-ota=speed-profile \
-    dalvik.vm.dex2oat-filter=speed \
-    dalvik.vm.image-dex2oat-filter=speed \
-    ro.vendor.qti.am.reschedule_service=true \
-    ro.sys.fw.dex2oat_thread_count=8 \
-    dalvik.vm.boot-dex2oat-threads=8 \
-    dalvik.vm.dex2oat-threads=4 \
-    dalvik.vm.image-dex2oat-threads=4
-
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.camera.expose.aux=1 \
@@ -167,16 +156,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
 # Keystore
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.hardware.keystore_desede=true
-
-# Media
-PRODUCT_PROPERTY_OVERRIDES += \
-    debug.stagefright.omx_default_rank.sw-audio=1 \
-    debug.stagefright.omx_default_rank=0 \
-    media.stagefright.thumbnail.prefer_hw_codecs=true \
-    vendor.vidc.dec.enable.downscalar=1 \
-    vendor.vidc.enc.disable_bframes=1 \
-    vendor.vidc.enc.disable.pq=true \
-    ro.media.recorder-max-base-layer-fps=60
 
 # Radio
 PRODUCT_PROPERTY_OVERRIDES += \

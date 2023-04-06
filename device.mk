@@ -259,6 +259,7 @@ TARGET_COMMON_QTI_COMPONENTS := \
     perf \
     usb \
     vibrator \
+    wfd \
     wlan
 
 PRODUCT_COPY_FILES += \
@@ -339,14 +340,7 @@ PRODUCT_COPY_FILES += \
 
 # WiFi Display
 PRODUCT_PACKAGES += \
-    libnl \
-    libqdMetaData \
-    libqdMetaData.system \
-    libqdMetaData.vendor \
     vendor.display.config@2.0
-
-#PRODUCT_BOOT_JARS += \
-    WfdCommon
 
 PRODUCT_PACKAGES += \
     android.frameworks.displayservice@1.0.vendor \

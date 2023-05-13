@@ -12,9 +12,6 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
-# Vendor properties
--include $(LOCAL_PATH)/vendor_props.mk
-
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@5.0-impl \

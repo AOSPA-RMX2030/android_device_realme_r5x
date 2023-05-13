@@ -181,15 +181,8 @@ PRODUCT_COPY_FILES += \
 # Init
 PRODUCT_PACKAGES += \
     fstab.qcom \
-    init.oppo.face.rc \
-    init.oppo.face.sh \
-    init.oppo.fingerprints.rc \
-    init.oppo.fingerprints.sh \
-    init.oppo.product.rc \
-    init.oppo.reserve.rc \
-    init.msm.usb.configfs.rc \
-    init.qcom.sensors.sh \
-    init.target.rc
+    init.target.rc \
+    init.qti.dcvs.sh
 
 # IRSC
 PRODUCT_COPY_FILES += \

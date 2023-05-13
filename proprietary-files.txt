@@ -3052,6 +3052,16 @@ vendor/lib64/libtinyxml2_1.so|ff32deb110acb02cb5def5f3404f9064c1276483
 vendor/bin/hw/android.hardware.health@2.0-service.oppo
 vendor/etc/init/android.hardware.health@2.0-service.oppo.rc
 
+# Init (Rootdir) - from RMX1911 RMX1911EX_11_C.63.
+vendor/etc/init/hw/init.msm.usb.configfs.rc|d486ec947fca80866f72b72c74021578cee33423
+vendor/etc/init/hw/init.oppo.face.rc|a7b4c53d4ac785c35b404664ca8ce9a64187f715
+vendor/etc/init/hw/init.oppo.fingerprints.rc|bcc2dd292f5476f15b5c10b10f0aba2d3aeece1b
+vendor/etc/init/hw/init.oppo.product.rc|52e28a0e5e2f2ac535baed799fc94e69b5304f76
+vendor/etc/init/hw/init.oppo.reserve.rc|1cf5d6a2d9450088e89f1a3e58b3cce86d067be3
+vendor/bin/init.qcom.sensors.sh|1083d6b2344f47e5892f2f1e8c6c51ba7cc81e4b
+vendor/bin/init.oppo.face.sh|bc2c9d8869d8d8fd4de38a0249278460f2f5c203
+vendor/bin/init.oppo.fingerprints.sh|950befd6f64d4055bf47ab066a0a1e0080e6191e
+
 # IPA
 vendor/firmware/ipa_fws.b00
 vendor/firmware/ipa_fws.b01

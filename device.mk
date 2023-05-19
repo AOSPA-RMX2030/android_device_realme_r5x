@@ -4,10 +4,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay
-
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
@@ -208,6 +204,19 @@ PRODUCT_PACKAGES += \
     libplatformconfig \
     libstagefrighthw \
     vendor.qti.hardware.capabilityconfigstore@1.0.vendor
+
+# Overlays
+PRODUCT_PACKAGES += \
+   ApertureOverlayR5x \
+   BluetoothOverlayR5x \
+   CarrierConfigOverlayR5x \
+   FrameworksOverlayR5x \
+   SettingsOverlayR5x \
+   SettingsProviderOverlayR5x \
+   SystemUIOverlayR5x \
+   TelephonyOverlayR5x \
+   TetheringOverlayR5x \
+   WifiOverlayR5x
 
 # Power
 PRODUCT_PACKAGES += \

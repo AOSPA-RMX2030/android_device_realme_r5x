@@ -2732,23 +2732,6 @@ vendor/etc/qdcm_calib_data_td4330_cmd_mode_dsi_truly_panel.xml
 vendor/etc/qdcm_calib_data_td4330_video_mode_dsi_truly_panel.xml
 
 # DPM - from LA.UM.9.11.r1-03900-NICOBAR.0
-framework/tcmclient.jar|cdd1ea7143a5a7acc3909b5cfa706650179647c7
-system_ext/bin/dpmd|f31dd437925322a60b90a0013f0cf45f0da3ee7f
-system_ext/etc/dpm/dpm.conf|95e27da8c989e96c6faea6f0697bce11955b62a5
-system_ext/etc/init/dpmd.rc|738b638ff04cda368e22c03e16baf90ba157a6fc
-system_ext/etc/permissions/com.qti.dpmframework.xml|c4b7ad0879d00c1eba4f3fe3a88ddb8aa153629a
-system_ext/etc/permissions/dpmapi.xml|9158c9789cc7135a685b3fb27f8cc27108b51fef
-system_ext/framework/com.qti.dpmframework.jar|96a29e28b3abffb9223daadd67459e3f5a3271df
-system_ext/framework/dpmapi.jar|2e2fbe2257a697b96a644c774136da0554430d3f
-system_ext/lib64/com.qualcomm.qti.dpm.api@1.0.so|f2d02195cca305fad78402c65d090bad72955262
-system_ext/lib64/libdiag_system.so|6c7d76cafbd4a50753e3f0a5e151761c34436d83
-system_ext/lib64/vendor.qti.diaghal@1.0.so|56817dc4fa9ec1e5fcbe90baaaa1ed3a09fabd35
-system_ext/lib64/libdpmctmgr.so|305ff03241dd426af93ad460e616ca4f284c29bd
-system_ext/lib64/libdpmfdmgr.so|232bb4c0f9bf5603e9a1d917dfc6f9e447eb7b4b
-system_ext/lib64/libdpmframework.so|19fc8dae183a79e609b4d473de59d3449f87c7a6
-system_ext/lib64/libdpmtcm.so|9a7bdbcab5e46106fa2c4d90327d0a8118d545d7
-system_ext/lib64/libmwqemiptablemgr.so|9a55f6fbf1b1b997a4e60c4df3c4f73833e7ce47
--system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk|74ec0d8e2ef3d7e3b0a730da9b97237921778ac4
 vendor/bin/dpmQmiMgr|ff63e4df491c89bb21150f98d64349574f059a35
 vendor/etc/init/dpmQmiMgr.rc|0f92e45cfb06c96711efa675c59fe3348871d0a5
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|d9f1aa7f93b928f42499d613d20ccbc60f279097
@@ -3188,8 +3171,6 @@ vendor/lib64/libsoc_helper.so|1b68d93bc41b403bfcca28828f3b9dfd2b794fef
 vendor/lib64/libsoc_helper_jni.so|593bb46e8bfaacb82a67231c64e82a7fa6d5c608
 
 # QMI
-etc/permissions/qti_libpermissions.xml
-etc/permissions/qti_permissions.xml
 vendor/bin/irsc_util
 vendor/bin/pd-mapper
 vendor/lib64/libdiag.so
@@ -3303,30 +3284,11 @@ vendor/radio/qcril_database/upgrade/3_version_update_wps_config.sql
 vendor/radio/qcril_database/upgrade/4_version_update_ecc_table.sql
 vendor/radio/qcril_database/upgrade/5_version_update_ecc_table.sql
 
-# Radio - EMBMS
--product/app/embms/embms.apk
-product/etc/permissions/embms.xml
-product/framework/embmslibrary.jar
-
 # Radio (Oppo)
 vendor/lib/vendor.oppo.hardware.radio.opporadio@1.0.so
 vendor/lib64/vendor.oppo.hardware.radio.opporadio@1.0.so
 
 # Radio - IMS
-system_ext/framework/qti-telephony-common.jar|e6da4cc4dfb81e979166def56a0b8fc049a05809
-etc/permissions/com.qualcomm.qti.imscmservice.xml
-product/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml
-product/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml
-product/etc/permissions/com.qualcomm.qti.imscmservice-V2.2-java.xml
-product/framework/com.qualcomm.qti.imscmservice-V2.0-java.jar
-product/framework/com.qualcomm.qti.imscmservice-V2.1-java.jar
-product/framework/com.qualcomm.qti.imscmservice-V2.2-java.jar
-product/framework/com.qualcomm.qti.uceservice-V2.0-java.jar
-product/framework/com.qualcomm.qti.uceservice-V2.1-java.jar
-product/framework/vendor.qti.hardware.data.iwlan-V1.0-java.jar
-product/framework/vendor.qti.ims.callinfo-V1.0-java.jar
-product/framework/vendor.qti.ims.rcsconfig-V1.0-java.jar
-product/framework/vendor.qti.ims.rcsconfig-V1.1-java.jar
 product/lib64/com.qualcomm.qti.imscmservice@1.0.so
 product/lib64/com.qualcomm.qti.imscmservice@2.0.so
 product/lib64/com.qualcomm.qti.imscmservice@2.1.so
@@ -3378,31 +3340,6 @@ vendor/lib64/vendor.qti.ims.rcsconfig@1.1.so
 vendor/lib64/vendor.qti.imsrtpservice@2.0.so
 vendor/lib64/vendor.qti.imsrtpservice@2.1-service-Impl.so
 vendor/lib64/vendor.qti.imsrtpservice@2.1.so
-
-# Ril- from X2
--product/app/QtiTelephonyService/QtiTelephonyService.apk|42a392ebebf4046dbd0939da10cc72903aed1d80
--product/app/datastatusnotification/datastatusnotification.apk|8ad2fea91aaa573c13d179562b445c341ef5372b
-product/etc/permissions/qcrilhook.xml|ceb890ab3c1645aa0d0044abab1ba58c4097a991
-product/etc/permissions/telephonyservice.xml|a39eefcaf85fb8da60044fdbbcfddd95deb031c8
-product/framework/QtiTelephonyServicelibrary.jar|ea30b05eaad3ebee157421b3f31bf8585566b4cd
-product/framework/qcrilhook.jar|23768fda90519d799e682fd058ec85b7b5cd6f89
--product/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|9624d9b375fd91f0ed7958f84b787aa0e7409d84
-vendor/lib/libmdmdetect.so|5b639151403b2119dcff7aa898ca8fcb9237c307
-vendor/lib64/deviceInfoServiceModule.so|6a1fda94e782b409f8dc3c92a95b4f1d4a88e8c2
-vendor/lib64/vendor.qti.hardware.data.connection@1.0.so|45dc2a98bf87e65b5ca24e1ef1148c0832f31717
-
-# Ril - IMS - from X2
--product/app/imssettings/imssettings.apk|bfbf063ca79ce15d130a9d3112fe5de898bedc99
--product/app/uceShimService/uceShimService.apk|8428a8581bb4394eaf7a04669a8d0d4ae060391c
-product/lib64/lib-imsvideocodec.so|97cb937d5438f2e9a5d3149706b617330b76634a
-product/lib64/lib-imsvt.so|50b549ab9f0cbdf45ad051521099eb7861381ae8
-product/lib64/lib-imsvtextutils.so|dbf6d45873e8b4f06cdedc4f1efee886ede702f8
-product/lib64/lib-imsvtutils.so|1627429094c78171be5f6275cecdbcab4ecce1cf
-product/lib64/libimscamera_jni.so|41fd9faa10818c9f7c5a14d372a07f79b0ca0daa
-product/lib64/libimsmedia_jni.so|448795a73bbf72fc0c9876f86a13769139ea8022
-product/lib64/vendor.qti.imsrtpservice@2.0.so|6ef5cd72d34c20e82cb0e58681a4aae9b0dac99a
-product/lib64/vendor.qti.imsrtpservice@2.1.so|6dbe703a5a8389c342008c950aaec7a3a260a055
--product/priv-app/ims/ims.apk|7e7ceab1d2843dd71c920ae77587132c76763313
 
 # Snapdragon Computer Vision Engine
 vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so
